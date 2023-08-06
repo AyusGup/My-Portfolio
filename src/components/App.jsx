@@ -6,19 +6,23 @@ import Footer from "./Footer";
 import About from "./About/About";
 import Skill from "./Skill/Skill";
 import Project from "./Project/Project";
+import Particle from "./Particles";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Home />
-      <About />
-      <Skill />
-      <Project />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+      <Particle />
+      <div>
+        <Header />
+        <Home />
+        <About />
+        <Skill />
+        <Project />
+        <Contact />
+        <Footer />
+      </div>
+    </>
   );
-}
+  }
 
 export default App;
