@@ -38,16 +38,14 @@ function Item2() {
         className="containerItem"
         style={{ color: "whitesmoke", fontSize: "2rem", fontWeight: "bold" }}
       >
-        My Portfolio Website
+        Blogging Website
       </div>
       <div>
         <p>
-          It is My Portfolio Website built to showcase my skill and to show my
-          ability to make highly responsive websites with an attractive user
-          interface.
+          It is a real time Blogging Website built using MERN stack.
         </p>
         <h3 style={{ color: "whitesmoke" }}>
-          React Js,Html,Css,Javascript,Jsx
+          MongoDB, ReactJs, ExpressJs, NodeJs and Socket.io
         </h3>
       </div>
       <div id="media" className="containerItem">
