@@ -10,7 +10,7 @@ function Project(){
                 <Photo1 />
                 <Item1 />
             </div>
-            <div style={{top:"20px"}}>
+            <div style={{marginTop:"20px"}}>
                 <Photo2 />
                 <Item2 />
             </div>
