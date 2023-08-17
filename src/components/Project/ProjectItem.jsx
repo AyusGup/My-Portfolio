@@ -2,15 +2,15 @@ import React from "react";
 
 function Item1() {
   return (
-    <div className="container card" style={{ flexWrap: "wrap", top: "0" }}>
+    <div className="container card" style={{ flexWrap: "wrap", top: "0" ,justifyContent:"space-evenly"}}>
       <div
         className="containerItem"
         style={{ color: "whitesmoke", fontSize: "2rem", fontWeight: "bold" }}
       >
         My Portfolio Website
       </div>
-      <div>
-        <p>
+      <div style={{ textAlign: "center" }}>
+        <p style={{ textAlign: "center" }}>
           It is My Portfolio Website built to showcase my skill and to show my
           ability to make highly responsive websites with an attractive user
           interface.
@@ -33,16 +33,16 @@ function Item1() {
 
 function Item2() {
   return (
-    <div className="container card" style={{ flexWrap: "wrap", top: "0" }}>
+    <div className="container card" style={{ flexWrap: "wrap", top: "0" ,justifyContent:"space-evenly"}}>
       <div
         className="containerItem"
         style={{ color: "whitesmoke", fontSize: "2rem", fontWeight: "bold" }}
       >
         Blogging Website
       </div>
-      <div>
-        <p>
-          It is a real time Blogging Website built using MERN stack.
+      <div style={{ textAlign: "center" }}>
+        <p style={{ textAlign: "center" }}>
+          It is a real time Blogging Website built using MERN stack.It has been built on model-view-controller architecture
         </p>
         <h3 style={{ color: "whitesmoke" }}>
           MongoDB, ReactJs, ExpressJs, NodeJs and Socket.io

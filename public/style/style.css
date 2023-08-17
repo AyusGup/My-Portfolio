@@ -158,3 +158,12 @@ footer p {
     font-size: 2rem;
   }
 }
+.alert {
+  display: none;
+  position: fixed;
+  text-align: center;
+  min-width: 30%;
+  display: none;
+  padding: 10px;
+  z-index: 1;
+}
