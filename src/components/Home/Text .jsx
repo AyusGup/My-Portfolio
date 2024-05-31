@@ -1,5 +1,5 @@
 import React from "react";
-import url from "./ayush-gupta.pdf";
+import url from "./ayush-resume.pdf";
 
 window.addEventListener("load", function () {
   setTimeout(auth, 500);
