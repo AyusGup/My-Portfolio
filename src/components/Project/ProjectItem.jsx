@@ -52,7 +52,7 @@ function Item2() {
       <a href="https://github.com/AyusGup/SmartCity" className="media">
         <i className="fa fa-github" style={{ color: "white" }}></i>
       </a>
-      <a href="https://smart-city-neon.vercel.app/" className="ml-4">
+      <a href="https://smart-city-neon.vercel.app?email=test@gmail.com&password=1234" className="ml-4">
         <i className="fa fa-external-link" style={{ color: "white" }}></i>
       </a>
     </div>
@@ -110,7 +110,7 @@ function Item4() {
       <a href="https://github.com/1palermo/Hostel-Complaint" className="media">
         <i className="fa fa-github" style={{ color: "white" }}></i>
       </a>
-      <a href="https://hostel-complaint.vercel.app/" className="ml-4">
+      <a href="https://hostel-complaint.vercel.app?email=test@dtu.ac.in&password=1234" className="ml-4">
         <i className="fa fa-external-link" style={{ color: "white" }}></i>
       </a>
     </div>
