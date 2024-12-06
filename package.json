@@ -1,7 +1,6 @@
 {
   "name": "portfolio-ayush",
   "version": "0.1.0",
-  "homepage": "https://my-portfolio-seven-eta-52.vercel.app/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
