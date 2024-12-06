@@ -1,31 +1,13 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.43e407b7.css",
-    "main.js": "/My-Portfolio/static/js/main.1e2c1226.js",
-    "static/media/MyPhoto.png": "/My-Portfolio/static/media/MyPhoto.914509cd5ea460530050.png",
-    "static/media/INVICTUS.png": "/My-Portfolio/static/media/INVICTUS.46715afbab898439d264.png",
-    "static/media/SIH.png": "/My-Portfolio/static/media/SIH.9418baae1d13a6eef5d4.png",
-    "static/media/HOSTEL.jpeg": "/My-Portfolio/static/media/HOSTEL.ee303c3a1cc28882f0ec.jpeg",
-    "static/media/PORTFOLIO.png": "/My-Portfolio/static/media/PORTFOLIO.3e7847cae3b709f6a297.png",
-    "static/media/ayush-resume.pdf": "/My-Portfolio/static/media/ayush-resume.554011f319d027b2687a.pdf",
-    "static/media/MONGO.png": "/My-Portfolio/static/media/MONGO.41ae1969f341d30268a1.png",
-    "static/media/GIT.png": "/My-Portfolio/static/media/GIT.bbb4d6755c71cb1be11c.png",
-    "static/media/JS.png": "/My-Portfolio/static/media/JS.a2a16f087e18d50f3d99.png",
-    "static/media/gamer.png": "/My-Portfolio/static/media/gamer.3c37a790f9676542b372.png",
-    "static/media/REACT.png": "/My-Portfolio/static/media/REACT.20adfb35ae6a6e5817bf.png",
-    "static/media/DSA.jpeg": "/My-Portfolio/static/media/DSA.66b0bcf0f3eedf1475ad.jpeg",
-    "static/media/typescript.png": "/My-Portfolio/static/media/typescript.8e08c2165d60d7ca62a9.png",
-    "static/media/EXPRESSJS.png": "/My-Portfolio/static/media/EXPRESSJS.39a0f4c3d981885c64f8.png",
-    "static/media/NODEJS.png": "/My-Portfolio/static/media/NODEJS.478c590a266bed215577.png",
-    "static/media/Socket.png": "/My-Portfolio/static/media/Socket.ecc0357f49510f1473bc.png",
-    "static/media/html-5.png": "/My-Portfolio/static/media/html-5.ff3cf75e3b7cbb4ea77c.png",
-    "static/media/next-js.png": "/My-Portfolio/static/media/next-js.9f8054a6dc0837262000.png",
-    "index.html": "/My-Portfolio/index.html",
-    "main.43e407b7.css.map": "/My-Portfolio/static/css/main.43e407b7.css.map",
-    "main.1e2c1226.js.map": "/My-Portfolio/static/js/main.1e2c1226.js.map"
+    "main.css": "/static/css/main.8eba2f0b.css",
+    "main.js": "/static/js/main.d2693dc1.js",
+    "index.html": "/index.html",
+    "main.8eba2f0b.css.map": "/static/css/main.8eba2f0b.css.map",
+    "main.d2693dc1.js.map": "/static/js/main.d2693dc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.43e407b7.css",
-    "static/js/main.1e2c1226.js"
+    "static/css/main.8eba2f0b.css",
+    "static/js/main.d2693dc1.js"
   ]
 }
