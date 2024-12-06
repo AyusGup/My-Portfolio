@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import { Item1, Item2 , Item3, Item4} from "./ProjectItem";
-import { Photo1, Photo2, Photo3, Photo4 } from "./Photo";
+import { Item } from "./ProjectItem";
+import { Photo } from "./Photo";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS CSS file
+import data from "./Project_Data.json";
 
 
 function Project() {
@@ -46,25 +47,22 @@ function Project() {
     >
       <div className="text-yellow-500 text-4xl font-bold text-center mb-8">My Projects</div>
       <div className="flex flex-wrap justify-center gap-4 overflow-x-hidden">
-      <div style={{...containerStyle, flexWrap: "wrap"}} className="justify-center gap-4 md:gap-12" data-aos="fade-left">
-        <Photo3 />
-        <Item3 />
-      </div>
-      
-      <div style={{...containerStyle, flexWrap: "wrap-reverse"}} className="justify-center gap-4 md:gap-12" data-aos="fade-right">
-        <Item4 />
-        <Photo4 />
-      </div>
-      
-      <div style={{...containerStyle, flexWrap: "wrap"}}  className="justify-center gap-4 md:gap-12" data-aos="fade-left">
-        <Photo1 />
-        <Item1 />
-      </div>
+      {
+          data.map((item, index) => {
+            const flag = index%2 === 0;
 
-      <div style={{...containerStyle, flexWrap: "wrap-reverse"}}  className="justify-center gap-4 md:gap-12" data-aos="fade-right">
-        <Item2 />
-        <Photo2 />
-      </div>
+            return (flag ? 
+            <div style={{...containerStyle, flexWrap: "wrap"}} className="justify-center gap-4 md:gap-12" data-aos="fade-left">
+              <Photo logo={item.logo} />
+              <Item title={item.title} content={item.description} tech={item.technologies} github={item.links.github} link={item.links.liveDemo} isLeft={flag}/>
+            </div>
+             : 
+            <div style={{...containerStyle, flexWrap: "wrap-reverse"}} className="justify-center gap-4 md:gap-12" data-aos="fade-right">
+              <Item title={item.title} content={item.description} tech={item.technologies} github={item.links.github} link={item.links.liveDemo} isLeft={flag}/>
+              <Photo logo={item.logo} />
+            </div>)
+          })
+      }
     </div>
     </div>
   );

@@ -1,5 +1,11 @@
 import React from "react";
 
+function getAge() {
+  const today = new Date(); 
+  const birthDate = new Date(process.env.REACT_APP_BIRTH_DATE);
+  return Math.floor((today - birthDate) / (1000 * 60 * 60 * 24 * 365));
+}
+
 function Detail() {
   return (
     <div className="flex flex-col items-start space-y-4 w-[80%] lg:w-[60%] text-white">
@@ -7,7 +13,7 @@ function Detail() {
         className="containerItem"
         style={{ color: "whitesmoke", fontSize: "2rem", fontWeight: "bold" }}
       >
-        I'm a 18 year old developer from India.
+        I'm a {getAge()} year old developer from India.
       </div>
       <div className="text-xl">
         <p>

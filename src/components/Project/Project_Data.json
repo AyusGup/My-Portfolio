@@ -1,0 +1,53 @@
+[
+    {
+        "title": "Hostel Management Web Portal",
+        "description": "Developed a Hostel Management Web-Solution from scratch, implementing JWT authentication for 2600+ users. Ensured seamless user experience and efficient project collaboration through Git version control.",
+        "technologies": ["NextJs", "NodeJs", "TypeScript", "MongoDb"],
+        "logo": "/HOSTEL.jpeg",
+        "links": {
+          "github": "https://github.com/1palermo/Hostel-Complaint",
+          "liveDemo": "https://hostel-complaint.vercel.app?email=test@dtu.ac.in&password=1234"
+        }
+    },
+    {
+        "title": "Invictus Website",
+        "description": "A website for Invictus(The Annual Techfest of College), built for showcasing our fest, events, to increase reach to the audience and for user registrations.",
+        "technologies": ["NextJs", "MongoDb", "Javascript", "Tailwind Css"],
+        "logo": "/INVICTUS.png",
+        "links": {
+          "github": "https://github.com/Invictus-DTU/Invictus24",
+          "liveDemo": "https://www.invictusdtu.in/"
+        }
+    },
+    {
+      "title": "My Portfolio Website",
+      "description": "It is My Portfolio Website built to showcase my skill and to show my ability to make highly responsive websites with an attractive user interface.",
+      "technologies": ["React Js", "Javascript", "Tailwind Css"],
+      "logo": "/PORTFOLIO.png",
+      "links": {
+        "github": "https://github.com/AyusGup/My-Portfolio",
+        "liveDemo": "https://ayusgup.github.io/My-Portfolio/"
+      }
+    },
+    {
+      "title": "CityPulse",
+      "description": "An initiative towards building safer & smarter cities, being eco-friendly and proper utilization of resources.",
+      "technologies": ["React Js", "NodeJs", "Javascript", "MongoDb"],
+      "logo": "/SIH.png",
+      "links": {
+        "github": "https://github.com/AyusGup/SmartCity",
+        "liveDemo": "https://smart-city-neon.vercel.app?email=test@gmail.com&password=1234"
+      }
+    },
+    {
+      "title": "Intellhire",
+      "description": "Developed a platform that helps freshers tailor their resumes, prepare for job applications, and receive job-related posts from Hive Blogs.",
+      "technologies": ["React Js", "Flask", "Hive - Web3"],
+      "logo": "/INTELLIHIRE.png",
+      "links": {
+        "github": "https://github.com/AyusGup/IntelliHire",
+        "liveDemo": "https://intelli-hire.vercel.app/"
+      }
+    }
+  ]
+  

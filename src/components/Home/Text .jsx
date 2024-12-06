@@ -1,5 +1,4 @@
 import React from "react";
-import url from "./ayush-resume.pdf";
 
 window.addEventListener("load", function () {
   setTimeout(auth, 500);
@@ -63,7 +62,7 @@ function Text() {
     </a>
   </div>
   <div className="containerItem">
-    <a href={url} className="border rounded-lg shadow-lg shadow-slate-200/20 p-2 text-white" download="cv">
+    <a href="/ayush-resume.pdf" className="border rounded-lg shadow-lg shadow-slate-200/20 p-2 text-white" download="cv">
       Download CV
       <i className="fa fa-download"></i>
     </a>

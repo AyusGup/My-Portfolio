@@ -1,0 +1,79 @@
+[
+    {
+      "logo": "DSA.jpeg",
+      "name": "DSA"
+    },
+    {
+      "logo": "next-js.png",
+      "name": "NEXT JS"
+    },
+    {
+      "logo": "REACT.png",
+      "name": "REACT JS"
+    },
+    {
+      "logo": "NODEJS.png",
+      "name": "NODE JS"
+    },
+    {
+      "logo": "EXPRESSJS.png",
+      "name": "EXPRESS JS"
+    },
+    {
+      "logo": "JS.png",
+      "name": "JAVASCRIPT"
+    },
+    {
+      "logo": "typescript.png",
+      "name": "TYPESCRIPT"
+    },
+    {
+      "logo": "Socket.png",
+      "name": "Socket.io"
+    },
+    {
+      "logo": "bootstrap.png",
+      "name": "BOOTSTRAP"
+    },
+    {
+      "logo": "tailwind-css.png",
+      "name": "TAILWIND CSS"
+    },
+    {
+      "logo": "CSS.png",
+      "name": "CSS"
+    },
+    {
+      "logo": "html-5.png",
+      "name": "HTML"
+    },
+    {
+      "logo": "CPP.png",
+      "name": "C++"
+    },
+    {
+      "logo": "GIT.png",
+      "name": "GIT"
+    },
+    {
+      "logo": "GITHUB.png",
+      "name": "GITHUB"
+    },
+    {
+      "logo": "MONGO.png",
+      "name": "MONGODB"
+    },
+    {
+      "logo": "flask.png",
+      "name": "FLASK"
+    },
+    {
+      "logo": "firebase.png",
+      "name": "FIREBASE"
+    },
+    {
+      "logo": "sql.png",
+      "name": "SQL"
+    }
+  ]
+  
