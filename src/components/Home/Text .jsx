@@ -48,7 +48,7 @@ function Text() {
       and connect with others. Here are my social links; feel free to connect.
   </p>
   <div id="media" className="containerItem flex space-x-4">
-    <a href="https://www.linkedin.com/in/ayushguptacoder" className="text-2xl">
+    <a href="https://www.linkedin.com/in/ayushg2004" className="text-2xl">
       <i className="fa fa-linkedin text-white"></i>
     </a>
     <a href="https://github.com/AyusGup" className="text-2xl">
