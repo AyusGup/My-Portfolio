@@ -20,13 +20,13 @@
         }
     },
     {
-      "title": "My Portfolio Website",
-      "description": "It is My Portfolio Website built to showcase my skill and to show my ability to make highly responsive websites with an attractive user interface.",
-      "technologies": ["React Js", "Javascript", "Tailwind Css"],
-      "logo": "/PORTFOLIO.png",
+      "title": "MannNirvana",
+      "description": "Developed an AI-driven mental well-being platform featuring an intelligent virtual therapist for emotional support. Integrated NLP techniques to enable sentiment analysis and implemented robust content moderation to ensure a safe user environment.",
+      "technologies": ["React Js", "NodeJs", "Tailwind Css", "Machine Learning", "MongoDb"],
+      "logo": "/mann_nirvana.png",
       "links": {
-        "github": "https://github.com/AyusGup/My-Portfolio",
-        "liveDemo": "https://ayusgup.github.io/My-Portfolio/"
+        "github": "https://github.com/DeveloperAyushKumar/MannNirvana",
+        "liveDemo": "https://mann-nirvana-six.vercel.app/"
       }
     },
     {

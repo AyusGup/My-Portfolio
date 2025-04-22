@@ -29,7 +29,7 @@
     },
     {
       "logo": "Socket.png",
-      "name": "Socket.io"
+      "name": "SOCKET.IO"
     },
     {
       "logo": "bootstrap.png",
@@ -50,6 +50,10 @@
     {
       "logo": "CPP.png",
       "name": "C++"
+    },
+    {
+      "logo": "python.png",
+      "name": "Python"
     },
     {
       "logo": "GIT.png",
@@ -74,6 +78,10 @@
     {
       "logo": "sql.png",
       "name": "SQL"
+    },
+    {
+      "logo": "ML.png",
+      "name": "ML"
     }
   ]
   
