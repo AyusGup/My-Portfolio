@@ -72,16 +72,44 @@
       "name": "FLASK"
     },
     {
-      "logo": "firebase.png",
-      "name": "FIREBASE"
-    },
-    {
       "logo": "sql.png",
       "name": "SQL"
     },
     {
       "logo": "ML.png",
       "name": "ML"
+    },
+    {
+      "logo": "DOCKER.png",
+      "name": "DOCKER"
+    },
+    {
+      "logo": "k8s.png",
+      "name": "KUBERNETES"
+    },
+    {
+      "logo": "aws.png",
+      "name": "AWS"
+    },
+    {
+      "logo": "HELM.png",
+      "name": "HELM"
+    },
+    {
+      "logo": "BB.png",
+      "name": "Bit Bucket"
+    },
+    {
+      "logo": "sfx.png",
+      "name": "SignalFx"
+    },
+    {
+      "logo": "Terraform.png",
+      "name": "Terraform"
+    },
+    {
+      "logo": "Argocd.png",
+      "name": "ArgoCD"
     }
   ]
   

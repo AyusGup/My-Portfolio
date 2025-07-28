@@ -1,0 +1,11 @@
+[
+  {
+    "company": "Atlassian",
+    "role": "Software Engineer Intern",
+    "duration": "June 2025 – July 2025",
+    "location": "Bengaluru, India",
+    "description": "Designed and built a modular end-to-end (E2E) test framework for Self-Hosted Sentry, reducing test execution time to 3 minutes through asynchronous execution. Enabled continuous health monitoring via scheduled cron jobs. Automated test workflows to achieve a 10x speedup and integrated them with CI/CD pipelines. Provisioned SignalFx dashboards and detectors using Terraform, ensuring seamless observability integration.",
+    "technologies": ["Python", "Pytest", "Asyncio", "Docker", "Kubernetes", "Bitbucket", "SignalFx", "Terraform", "AWS", "CI/CD"],
+    "logo": "Atlassian.png"
+  }
+]

@@ -43,7 +43,7 @@ function Project() {
   return (
     <div
       className="mt-40 w-full"
-      id="3"
+      id="4"
     >
       <div className="text-yellow-500 text-4xl font-bold text-center mb-8">My Projects</div>
       <div className="flex flex-wrap justify-center gap-4 overflow-x-hidden">

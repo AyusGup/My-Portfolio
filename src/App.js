@@ -6,7 +6,8 @@ import Skill from './components/Skill/Skill';
 import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
 import Particle from './components/Particle';
-import toast, { Toaster } from 'react-hot-toast';
+import Experience from './components/Experience/Experience';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Home />
       <About />
       <Skill />
+      <Experience />
       <Project />
       <Contact />
       <Footer />

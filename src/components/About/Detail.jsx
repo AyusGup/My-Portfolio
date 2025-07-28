@@ -17,10 +17,9 @@ function Detail() {
       </div>
       <div className="text-xl">
         <p>
-          Currently pursuing my B.Tech in Computer Science from Delhi
-          Technological University. Primarily a Web Developer exploring
-          different domains and enjoying college life. Feel free to connect with
-          me using my social links
+          I'm a final year B.Tech Computer Science student at Delhi Technological University with a strong interest in backend engineering and scalable web systems. 
+          I’ve worked on async workflows, infrastructure automation, CI/CD pipelines, and automated testing during my internship at Atlassian. 
+          Passionate about clean architecture, open-source, and exploring new tech domains, I’m always looking to learn, build, and contribute. Let’s connect!
         </p>
       </div>
     </div>
