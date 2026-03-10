@@ -55,8 +55,8 @@ function Project() {
               <div 
                 style={{
                   ...containerStyle, 
-                  flexWrap: flag ? "wrap" : "wrap-reverse",
-                  flexDirection: flag ? "row" : "row-reverse" // Swaps the visual order
+                  flexDirection: flag ? "row" : "row-reverse",
+                  flexWrap: "wrap-reverse" 
                 }} 
                 className="flex justify-center items-center gap-4 md:gap-12" 
                 data-aos={flag ? "fade-left" : "fade-right"}
