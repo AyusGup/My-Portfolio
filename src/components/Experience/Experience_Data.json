@@ -7,5 +7,13 @@
     "description": "Designed and built a modular end-to-end (E2E) test framework for Self-Hosted Sentry, reducing test execution time to 3 minutes through asynchronous execution. Enabled continuous health monitoring via scheduled cron jobs. Automated test workflows to achieve a 10x speedup and integrated them with CI/CD pipelines. Provisioned SignalFx dashboards and detectors using Terraform, ensuring seamless observability integration.",
     "technologies": ["Python", "Pytest", "Asyncio", "Docker", "Kubernetes", "Bitbucket", "SignalFx", "Terraform", "AWS", "CI/CD"],
     "logo": "Atlassian.png"
+  },
+  {
+    "company": "Jobbie AI",
+    "role": "Software Engineer Intern",
+    "duration": "Aug 2025 – Jan 2026",
+    "location": "Delhi, India",
+    "description": "Architected a serverless, event-driven microservices architecture on GCP, reducing potential idle-resource costs. Developed a scalable notification service supporting Email and SMS using event-driven serverless architecture. Integrated Stripe to enable subscription-based billing, building a secure and reliable payment workflow. Built Google Document AI resume parsing pipeline, achieving a 0.973 F1 score in structured data extraction. Engineered GitLab CI/CD pipelines, automating 100% of deployment workflows for 5+ microservices.",
+    "technologies": ["GCP", "Node.js", "TypeScript", "PostgreSQL", "AWS SES", "MSG91", "GitLab", "Stripe", "CI/CD", "Docker"]
   }
 ]

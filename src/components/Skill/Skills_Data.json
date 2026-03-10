@@ -110,6 +110,22 @@
     {
       "logo": "Argocd.png",
       "name": "ArgoCD"
+    },
+    {
+      "logo": "azure.png",
+      "name": "Azure"
+    },
+    {
+      "logo": "redis.png",
+      "name": "Redis"
+    },
+    {
+      "logo": "redux.png",
+      "name": "Redux"
+    },
+    {
+      "logo": "gcp.png",
+      "name": "GCP"
     }
   ]
   

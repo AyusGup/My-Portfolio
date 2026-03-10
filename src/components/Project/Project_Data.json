@@ -1,5 +1,15 @@
 [
     {
+      "title": "SQL Studio",
+      "description": "Developed an interactive sql studio platform that helps in practing and executing sql questions with ai based assistance.",
+      "technologies": ["React Js", "NodeJs", "Redis", "Redux", "Azure"],
+      "logo": "/sql-editor.png",
+      "links": {
+        "github": "https://github.com/AyusGup/sql-web-editor",
+        "liveDemo": "https://sql-web-editor.vercel.app/"
+      }
+    },
+    {
         "title": "Hostel Management Web Portal",
         "description": "Developed a Hostel Management Web-Solution from scratch, implementing JWT authentication for 2600+ users. Ensured seamless user experience and efficient project collaboration through Git version control.",
         "technologies": ["NextJs", "NodeJs", "TypeScript", "MongoDb"],

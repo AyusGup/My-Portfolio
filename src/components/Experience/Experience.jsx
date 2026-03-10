@@ -27,16 +27,28 @@ function Experience() {
         {data.map((item, index) => {
           const flag = index%2 === 0;
 
-          return (flag ? 
-          <div style={{...containerStyle, flexWrap: "wrap"}} className="justify-center gap-4 md:gap-12" data-aos="fade-left">
-            <Photo logo={item.logo} />
-            <ExperienceItem company={item.company} role={item.role} location={item.location} duration={item.duration} description={item.description} tech={item.technologies} isLeft={flag}/>
-          </div>
-            : 
-          <div style={{...containerStyle, flexWrap: "wrap-reverse"}} className="justify-center gap-4 md:gap-12" data-aos="fade-right">
-            <ExperienceItem company={item.company} role={item.role} location={item.location} duration={item.duration} description={item.description} tech={item.technologies} isLeft={flag}/>
-            <Photo logo={item.logo} />
-          </div>)
+          return (
+            <div 
+              style={{
+                ...containerStyle, 
+                flexDirection: flag ? "row" : "row-reverse",
+                flexWrap: "wrap-reverse" 
+              }} 
+              className="flex justify-center items-center gap-4 md:gap-12" 
+              data-aos={flag ? "fade-left" : "fade-right"}
+            >
+              <Photo logo={item.logo? item.logo : "/company.png"} />
+              <ExperienceItem 
+                company={item.company} 
+                role={item.role} 
+                location={item.location} 
+                duration={item.duration} 
+                description={item.description} 
+                tech={item.technologies} 
+                isLeft={flag}
+              />
+            </div>
+          );
         })}
       </div>
     </div>

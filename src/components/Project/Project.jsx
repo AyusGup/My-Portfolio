@@ -51,16 +51,27 @@ function Project() {
           data.map((item, index) => {
             const flag = index%2 === 0;
 
-            return (flag ? 
-            <div style={{...containerStyle, flexWrap: "wrap"}} className="justify-center gap-4 md:gap-12" data-aos="fade-left">
-              <Photo logo={item.logo} />
-              <Item title={item.title} content={item.description} tech={item.technologies} github={item.links.github} link={item.links.liveDemo} isLeft={flag}/>
-            </div>
-             : 
-            <div style={{...containerStyle, flexWrap: "wrap-reverse"}} className="justify-center gap-4 md:gap-12" data-aos="fade-right">
-              <Item title={item.title} content={item.description} tech={item.technologies} github={item.links.github} link={item.links.liveDemo} isLeft={flag}/>
-              <Photo logo={item.logo} />
-            </div>)
+            return (
+              <div 
+                style={{
+                  ...containerStyle, 
+                  flexWrap: flag ? "wrap" : "wrap-reverse",
+                  flexDirection: flag ? "row" : "row-reverse" // Swaps the visual order
+                }} 
+                className="flex justify-center items-center gap-4 md:gap-12" 
+                data-aos={flag ? "fade-left" : "fade-right"}
+              >
+                <Photo logo={item.logo} />
+                <Item 
+                  title={item.title} 
+                  content={item.description} 
+                  tech={item.technologies} 
+                  github={item.links.github} 
+                  link={item.links.liveDemo} 
+                  isLeft={flag}
+                />
+              </div>
+            );
           })
       }
     </div>
