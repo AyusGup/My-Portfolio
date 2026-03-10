@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Item } from "./ProjectItem";
 import { Photo } from "./Photo";
 import AOS from 'aos';

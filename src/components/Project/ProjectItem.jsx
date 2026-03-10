@@ -1,6 +1,3 @@
-import React from "react";
-
-
 export const Item = ({ title, content, tech, github, link, isLeft}) => {
 
   return (

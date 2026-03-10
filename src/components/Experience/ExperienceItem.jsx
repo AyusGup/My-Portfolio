@@ -1,6 +1,3 @@
-import React from "react";
-
-
 export const ExperienceItem = ({ company, role, duration, location, description, tech, isLeft }) => {
   return (
     <div
