@@ -16,11 +16,8 @@ function classNames(...classes) {
 }
 
 export default function Header() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
   const scrollHandler = (ele) => {
     document.getElementById(ele).scrollIntoView({ behavior: 'smooth' });
-    setMenuOpen(false); // Close the menu after clicking on an item
   };
 
   return (
