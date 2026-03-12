@@ -60,6 +60,9 @@ function Text() {
     <a href="https://twitter.com/AyushGup712" className="text-2xl">
       <i className="fa fa-twitter text-white"></i>
     </a>
+    <a href="https://medium.com/@ag8350961" className="text-2xl">
+      <i className="fa fa-medium text-white"></i>
+    </a>
   </div>
   <div className="containerItem">
     <a href="/ayush_resume.pdf" className="border rounded-lg shadow-lg shadow-slate-200/20 p-2 text-white" download="cv">
